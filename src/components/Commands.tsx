@@ -493,6 +493,7 @@ const Commands: React.FC = () => {
           </div>
         </div>
       </div>
+    </div>
   );
 };
 
