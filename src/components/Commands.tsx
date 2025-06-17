@@ -493,6 +493,23 @@ const Commands: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+      <div className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-xl p-6 text-center">
+        <h3 className="text-xl font-semibold text-white mb-3">Need Help?</h3>
+        <p className="text-gray-300 mb-4">
+          If you need help with any command, create a ticket or ask in the appropriate channel. 
+          Our community is always ready to help!
+        </p>
+        <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200">
+            Create Ticket
+          </button>
+          <button className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200">
+            Join #help Channel
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
