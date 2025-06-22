@@ -257,7 +257,7 @@ const ServerInfo: React.FC = () => {
             <StatCard 
               icon={<Users className="h-8 w-8 text-blue-300" />} 
               label="Total Members" 
-              value="48" 
+              value="51" 
               gradient="bg-gradient-to-br from-blue-500 to-cyan-500"
             />
             <StatCard 
